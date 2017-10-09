@@ -15,7 +15,6 @@ A = {'class': 'logging.handlers.RotatingFileHandler',
         'backupCount': 5,
         }
 
-
 E = {'class': 'logging.handlers.RotatingFileHandler',
         'filters': ['errorFilter'],
         'formatter': 'simple',
